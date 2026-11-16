@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MIM",
+    "MRM",
+    "MIM"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "rustcraft:garage_door"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

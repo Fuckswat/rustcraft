@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "rustcraft:block/building/armored_door_top",
+    "bottom": "rustcraft:block/building/armored_door_bottom"
+  }
+}

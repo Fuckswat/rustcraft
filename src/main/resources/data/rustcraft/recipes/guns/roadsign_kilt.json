@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "LLL",
+    "IYI",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "rustcraft:roadsign_kilt",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

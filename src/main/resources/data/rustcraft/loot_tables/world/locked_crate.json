@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 45,
+                "max": 75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:hqm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ak47",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:mp5",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:bolt_rifle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:rocket_launcher",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_rifle",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 24,
+                "max": 48
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_rocket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:metal_facemask",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:metal_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:armored_door",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:rhib_item",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:minicopter_item",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:scrap_heli_item",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:timed_explosive",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:medkit",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:keycard_red",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:low_grade_fuel",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:syringe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

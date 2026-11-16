@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "HWH",
+    " H "
+  ],
+  "key": {
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "W": {
+      "item": "rustcraft:metal_wall"
+    }
+  },
+  "result": {
+    "item": "rustcraft:armored_wall"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

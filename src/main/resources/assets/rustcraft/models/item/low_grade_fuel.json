@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rustcraft:item/world/low_grade_fuel"
+  }
+}

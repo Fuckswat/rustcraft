@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MWM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "W": {
+      "item": "rustcraft:stone_wall"
+    }
+  },
+  "result": {
+    "item": "rustcraft:metal_wall"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "item.rustcraft.cloth_hood": "Мешковинный капюшон",
+  "item.rustcraft.cloth_shirt": "Мешковинная рубашка",
+  "item.rustcraft.cloth_pants": "Мешковинные штаны",
+  "item.rustcraft.cloth_boots": "Кожаные ботинки",
+  "item.rustcraft.wood_helmet": "Деревянный шлем",
+  "item.rustcraft.wood_chestplate": "Деревянный нагрудник",
+  "item.rustcraft.wood_leggings": "Деревянные поножи",
+  "item.rustcraft.roadsign_helmet": "Самодельный шлем из дорожного знака",
+  "tooltip.rustcraft.armor.bullets": "Защита от пуль: %s%%",
+  "tooltip.rustcraft.armor.location": "Защищает только закрытую часть тела",
+  "tooltip.rustcraft.armor.durability": "Прочность: %s / %s"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "bottom": "rustcraft:block/world/keycard_door",
+    "top": "rustcraft:block/world/keycard_door"
+  }
+}

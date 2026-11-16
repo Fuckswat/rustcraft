@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rustcraft_guns",
+  "ingredients": [
+    {
+      "item": "rustcraft:syringe"
+    },
+    {
+      "item": "rustcraft:syringe"
+    },
+    {
+      "item": "rustcraft:bandage"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "rustcraft:medkit",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

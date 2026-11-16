@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "rustcraft:block/hemp"
+    },
+    "spent=true": {
+      "model": "rustcraft:block/hemp_spent"
+    }
+  }
+}

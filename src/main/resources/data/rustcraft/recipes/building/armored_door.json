@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HH",
+    "HD",
+    "HH"
+  ],
+  "key": {
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "D": {
+      "item": "rustcraft:metal_door"
+    }
+  },
+  "result": {
+    "item": "rustcraft:armored_door"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

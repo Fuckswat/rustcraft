@@ -1,0 +1,8 @@
+{
+  "entity.rustcraft.scientist": "Scientist",
+  "entity.rustcraft.heavy_scientist": "Heavy Scientist",
+  "item.rustcraft.scientist_spawn_egg": "Scientist Spawn Egg",
+  "item.rustcraft.heavy_scientist_spawn_egg": "Heavy Scientist Spawn Egg",
+  "death.attack.rustcraft.bot_shot.scientist": "%1$s was shot by a Scientist",
+  "death.attack.rustcraft.bot_shot.heavy_scientist": "%1$s was gunned down by a Heavy Scientist"
+}

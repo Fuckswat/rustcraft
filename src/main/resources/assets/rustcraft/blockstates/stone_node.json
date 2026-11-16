@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "rustcraft:block/stone_node"
+    },
+    "spent=true": {
+      "model": "rustcraft:block/stone_node_spent"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+build/
+.gradle/
+run/
+run-server/
+server/
+tools/progression/classes/
+tools/progression/javac.args
+out/
+*.iml
+.idea/
+logs/
+.claude/
+
+server/
+*.log
+radmin-host.txt

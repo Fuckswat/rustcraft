@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "HHH",
+    "FRF",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "rustcraft:rocket_launcher",
+    "count": 1
+  }
+}

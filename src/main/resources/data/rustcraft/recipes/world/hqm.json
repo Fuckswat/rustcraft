@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rustcraft:metal_fragments"
+    },
+    {
+      "item": "rustcraft:metal_fragments"
+    },
+    {
+      "item": "rustcraft:metal_fragments"
+    },
+    {
+      "item": "rustcraft:metal_fragments"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "item": "rustcraft:hqm",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

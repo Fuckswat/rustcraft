@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_pistol",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 3 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_rifle",
+          "weight": 4,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 3, "max": 10 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 3 } }
+          ]
+        },
+        { "type": "minecraft:empty", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:scrap",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 2 } }
+          ]
+        }
+      ],
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.7 } ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "rustcraft:bandage", "weight": 3 },
+        { "type": "minecraft:item", "name": "rustcraft:syringe", "weight": 1 }
+      ],
+      "conditions": [ { "condition": "minecraft:random_chance_with_looting", "chance": 0.3, "looting_multiplier": 0.05 } ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:metal_fragments",
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 5, "max": 15 } } ]
+        }
+      ],
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.25 } ]
+    }
+  ]
+}

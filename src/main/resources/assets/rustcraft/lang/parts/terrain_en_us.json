@@ -1,0 +1,18 @@
+{
+  "rustcraft.world.map.v2.welcome": "RustCraft: /rustmap info shows map status and island locations. /rustmap tp spawn goes to the center. Operator: /rustmap build; /rustmap repair fixes oil-rig ladders.",
+  "rustcraft.world.map.v2.done": "RustCraft island ready: mountains, building clearings, roads and seven monuments. Locations: /rustmap info. Respawns are random unless a working bed is available.",
+  "rustcraft.world.map.v2.started": "Building a new island. The old map stays in its own region. Progress: /rustmap status.",
+  "rustcraft.world.map.layout": "Island layout: %s; land footprint up to %s × %s blocks.",
+  "rustcraft.world.map.monument": "%s: %s %s %s",
+  "rustcraft.world.map.legacy": "Old region, %s",
+  "rustcraft.world.map.repair_started": "Repairing oil-rig docks, entrances and ladders. Other map areas stay in place.",
+  "rustcraft.world.map.repair_unavailable": "No oil rig found, or the map is currently building/repairing. Check /rustmap status.",
+  "rustcraft.world.map.repaired": "Oil rig repaired: sea-level dock, continuous ladders and clear deck exit.",
+  "rustcraft.world.monument.oilrig": "Oil rig",
+  "rustcraft.world.monument.silo": "Missile silo",
+  "rustcraft.world.monument.gasstation": "Gas station",
+  "rustcraft.world.monument.supermarket": "Supermarket",
+  "rustcraft.world.monument.radtown": "Radio tower",
+  "rustcraft.world.monument.harbor": "Harbor",
+  "rustcraft.world.monument.refinery": "Oil refinery"
+}

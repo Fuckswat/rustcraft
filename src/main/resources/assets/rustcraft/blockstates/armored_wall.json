@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "damage=0": {
+      "model": "rustcraft:block/building/armored_wall_d0"
+    },
+    "damage=1": {
+      "model": "rustcraft:block/building/armored_wall_d1"
+    },
+    "damage=2": {
+      "model": "rustcraft:block/building/armored_wall_d2"
+    },
+    "damage=3": {
+      "model": "rustcraft:block/building/armored_wall_d3"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rustcraft_guns",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "rustcraft:bandage",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CWC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "W": {
+      "item": "rustcraft:wood_wall"
+    }
+  },
+  "result": {
+    "item": "rustcraft:stone_wall"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

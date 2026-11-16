@@ -1,0 +1,22 @@
+{
+  "block.rustcraft.wood_foundation": "Деревянный фундамент",
+  "block.rustcraft.wood_floor": "Деревянный пол",
+  "block.rustcraft.wood_roof": "Деревянный потолок",
+  "block.rustcraft.wood_stairs": "Деревянный лестничный блок",
+  "block.rustcraft.wood_window": "Деревянный оконный проём",
+  "block.rustcraft.stone_foundation": "Каменный фундамент",
+  "block.rustcraft.stone_floor": "Каменный пол",
+  "block.rustcraft.stone_roof": "Каменный потолок",
+  "block.rustcraft.stone_stairs": "Каменный лестничный блок",
+  "block.rustcraft.stone_window": "Каменный оконный проём",
+  "block.rustcraft.metal_foundation": "Металлический фундамент",
+  "block.rustcraft.metal_floor": "Металлический пол",
+  "block.rustcraft.metal_roof": "Металлический потолок",
+  "block.rustcraft.metal_stairs": "Металлический лестничный блок",
+  "block.rustcraft.metal_window": "Металлический оконный проём",
+  "block.rustcraft.armored_foundation": "Бронированный фундамент",
+  "block.rustcraft.armored_floor": "Бронированный пол",
+  "block.rustcraft.armored_roof": "Бронированный потолок",
+  "block.rustcraft.armored_stairs": "Бронированный лестничный блок",
+  "block.rustcraft.armored_window": "Бронированный оконный проём"
+}

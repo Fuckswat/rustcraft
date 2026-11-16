@@ -1,0 +1,22 @@
+{
+  "block.rustcraft.wood_foundation": "Wood foundation",
+  "block.rustcraft.wood_floor": "Wood floor",
+  "block.rustcraft.wood_roof": "Wood ceiling",
+  "block.rustcraft.wood_stairs": "Wood stairs",
+  "block.rustcraft.wood_window": "Wood window frame",
+  "block.rustcraft.stone_foundation": "Stone foundation",
+  "block.rustcraft.stone_floor": "Stone floor",
+  "block.rustcraft.stone_roof": "Stone ceiling",
+  "block.rustcraft.stone_stairs": "Stone stairs",
+  "block.rustcraft.stone_window": "Stone window frame",
+  "block.rustcraft.metal_foundation": "Sheet metal foundation",
+  "block.rustcraft.metal_floor": "Sheet metal floor",
+  "block.rustcraft.metal_roof": "Sheet metal ceiling",
+  "block.rustcraft.metal_stairs": "Sheet metal stairs",
+  "block.rustcraft.metal_window": "Sheet metal window frame",
+  "block.rustcraft.armored_foundation": "Armored foundation",
+  "block.rustcraft.armored_floor": "Armored floor",
+  "block.rustcraft.armored_roof": "Armored ceiling",
+  "block.rustcraft.armored_stairs": "Armored stairs",
+  "block.rustcraft.armored_window": "Armored window frame"
+}

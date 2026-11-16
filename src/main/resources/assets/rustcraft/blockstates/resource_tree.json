@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "rustcraft:block/resource_tree"
+    },
+    "spent=true": {
+      "model": "rustcraft:block/resource_tree_spent"
+    }
+  }
+}

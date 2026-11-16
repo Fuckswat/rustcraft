@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "pattern": [
+    "M M",
+    "HSH"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "S": {
+      "item": "rustcraft:scrap"
+    }
+  },
+  "result": {
+    "item": "rustcraft:rhib_item"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "pattern": [
+    "HGH",
+    "HSH",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "S": {
+      "item": "rustcraft:scrap"
+    }
+  },
+  "result": {
+    "item": "rustcraft:scrap_heli_item"
+  }
+}

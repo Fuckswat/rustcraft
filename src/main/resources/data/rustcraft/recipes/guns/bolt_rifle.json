@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "GHH",
+    "WIH",
+    "W  "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "rustcraft:bolt_rifle",
+    "count": 1
+  }
+}

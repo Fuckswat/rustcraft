@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "rustcraft:block/metal_node"
+    },
+    "spent=true": {
+      "model": "rustcraft:block/metal_node_spent"
+    }
+  }
+}

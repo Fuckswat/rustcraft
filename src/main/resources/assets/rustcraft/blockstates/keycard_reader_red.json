@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "rustcraft:block/keycard_reader_red"
+      }
+    }
+  ]
+}

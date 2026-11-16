@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "rustcraft:block/sulfur_node"
+    },
+    "spent=true": {
+      "model": "rustcraft:block/sulfur_node_spent"
+    }
+  }
+}

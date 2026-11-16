@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "H H",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "rustcraft:hqm"
+    }
+  },
+  "result": {
+    "item": "rustcraft:metal_chestplate",
+    "count": 1
+  }
+}

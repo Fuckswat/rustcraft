@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rustcraft:block/world/keycard_reader"
+  }
+}

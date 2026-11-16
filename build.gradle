@@ -1,0 +1,88 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+
+version = '0.2.0'
+group = 'rustcraft'
+archivesBaseName = 'rustcraft-1.16.3'
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            args '--username', 'Dev', '--width', '1100', '--height', '720'
+            if (project.hasProperty('smokeServer')) args '--server', (project.findProperty('serverAddress') ?: '127.0.0.1'), '--port', '25576'
+            jvmArgs '-Xmx1536M', '-XX:+UseG1GC'
+            mods { rustcraft { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run-server')
+            if (project.hasProperty('radminServer')) workingDirectory project.file('server')
+            property 'forge.logging.console.level', 'info'
+            args 'nogui'
+            jvmArgs '-Xms512M', '-Xmx2G', '-XX:+UseG1GC'
+            mods { rustcraft { source sourceSets.main } }
+        }
+    }
+}
+
+tasks.matching { it.name == 'runServer' }.configureEach {
+    standardInput = System.in
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.3-34.1.42'
+    // Forge 34 ships ModLauncher 8.0.6, which fails on Java 8u321+.
+    implementation('cpw.mods:modlauncher:8.1.3') { transitive = false }
+}
+
+// Каждый модуль пишет свои переводы в assets/rustcraft/lang/parts/<module>_<lang>.json.
+// При сборке они сливаются в assets/rustcraft/lang/<lang>.json.
+processResources {
+    inputs.dir('src/main/resources/assets/rustcraft/lang/parts')
+    exclude 'assets/rustcraft/lang/parts/**'
+    doLast {
+        def partsDir = file('src/main/resources/assets/rustcraft/lang/parts')
+        def outDir = new File(destinationDir, 'assets/rustcraft/lang')
+        outDir.mkdirs()
+        ['en_us', 'ru_ru'].each { lang ->
+            def merged = new TreeMap()
+            if (partsDir.exists()) {
+                partsDir.listFiles().findAll { it.name.endsWith("_${lang}.json") }.sort { it.name }.each { f ->
+                    merged.putAll(new JsonSlurper().parse(f, 'UTF-8'))
+                }
+            }
+            new File(outDir, "${lang}.json").write(JsonOutput.prettyPrint(JsonOutput.toJson(merged)), 'UTF-8')
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "rustcraft",
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+        ])
+    }
+}
+jar.finalizedBy('reobfJar')
+build.doLast {
+    exec { commandLine 'python', project.file('tools/publish_update.py'), project.file("build/libs/${archivesBaseName}-${version}.jar") }
+}

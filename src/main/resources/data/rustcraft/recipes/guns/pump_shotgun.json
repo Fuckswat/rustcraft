@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "FFF",
+    "WIF"
+  ],
+  "key": {
+    "F": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "rustcraft:pump_shotgun",
+    "count": 1
+  }
+}

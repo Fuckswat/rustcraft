@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "pattern": [
+    "MGM",
+    "HSH",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "S": {
+      "item": "rustcraft:scrap"
+    }
+  },
+  "result": {
+    "item": "rustcraft:minicopter_item"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rustcraft:stones"
+    },
+    {
+      "item": "rustcraft:stones"
+    }
+  ],
+  "result": {
+    "item": "rustcraft:rock"
+  }
+}

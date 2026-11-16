@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rustcraft_guns",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "rustcraft:ammo_shotgun",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

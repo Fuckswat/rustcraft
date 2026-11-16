@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "rustcraft:wood_wall",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MSM",
+    "GUG"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "U": {
+      "item": "rustcraft:sulfur"
+    }
+  },
+  "result": {
+    "item": "rustcraft:beancan_grenade"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

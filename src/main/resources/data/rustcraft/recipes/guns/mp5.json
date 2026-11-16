@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "rustcraft_guns",
+  "pattern": [
+    "HFF",
+    "FHI",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "rustcraft:metal_fragments"
+    },
+    "H": {
+      "item": "rustcraft:hqm"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "rustcraft:mp5",
+    "count": 1
+  }
+}

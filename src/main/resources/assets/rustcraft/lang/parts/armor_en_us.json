@@ -1,0 +1,13 @@
+{
+  "item.rustcraft.cloth_hood": "Burlap hood",
+  "item.rustcraft.cloth_shirt": "Burlap shirt",
+  "item.rustcraft.cloth_pants": "Burlap trousers",
+  "item.rustcraft.cloth_boots": "Leather boots",
+  "item.rustcraft.wood_helmet": "Wood helmet",
+  "item.rustcraft.wood_chestplate": "Wood chestplate",
+  "item.rustcraft.wood_leggings": "Wood leggings",
+  "item.rustcraft.roadsign_helmet": "Road-sign helmet",
+  "tooltip.rustcraft.armor.bullets": "Bullet protection: %s%%",
+  "tooltip.rustcraft.armor.location": "Protects only the covered body part",
+  "tooltip.rustcraft.armor.durability": "Durability: %s / %s"
+}

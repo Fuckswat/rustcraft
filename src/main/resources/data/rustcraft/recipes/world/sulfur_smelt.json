@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rustcraft:sulfur_ore"
+  },
+  "result": "rustcraft:sulfur",
+  "experience": 0.3,
+  "cookingtime": 160
+}

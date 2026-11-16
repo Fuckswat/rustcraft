@@ -1,0 +1,8 @@
+{
+  "entity.rustcraft.scientist": "Учёный",
+  "entity.rustcraft.heavy_scientist": "Тяжёлый учёный",
+  "item.rustcraft.scientist_spawn_egg": "Яйцо призыва учёного",
+  "item.rustcraft.heavy_scientist_spawn_egg": "Яйцо призыва тяжёлого учёного",
+  "death.attack.rustcraft.bot_shot.scientist": "%1$s был застрелен учёным",
+  "death.attack.rustcraft.bot_shot.heavy_scientist": "%1$s был изрешечён тяжёлым учёным"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_rifle",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 8, "max": 20 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 4 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:ammo_shotgun",
+          "weight": 2,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 3, "max": 8 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 2 } }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:scrap",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 5, "max": 12 } },
+            { "function": "minecraft:looting_enchant", "count": { "min": 0, "max": 3 } }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "rustcraft:syringe", "weight": 4 },
+        { "type": "minecraft:item", "name": "rustcraft:medkit", "weight": 1 }
+      ],
+      "conditions": [ { "condition": "minecraft:random_chance_with_looting", "chance": 0.35, "looting_multiplier": 0.05 } ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rustcraft:hqm",
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } } ]
+        }
+      ],
+      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "rustcraft:keycard_blue", "weight": 2 },
+        { "type": "minecraft:item", "name": "rustcraft:keycard_red", "weight": 1 }
+      ],
+      "conditions": [
+        { "condition": "minecraft:killed_by_player" },
+        { "condition": "minecraft:random_chance_with_looting", "chance": 0.08, "looting_multiplier": 0.02 }
+      ]
+    }
+  ]
+}

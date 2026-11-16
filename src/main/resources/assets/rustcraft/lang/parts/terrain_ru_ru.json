@@ -1,0 +1,18 @@
+{
+  "rustcraft.world.map.v2.welcome": "RustCraft: C или /craft: создание предметов. /kit: наборы. Верстаки и стол исследований открываются ПКМ. /rustmap info: карта.",
+  "rustcraft.world.map.v2.done": "Остров RustCraft готов: горы, места для строительства, дороги и семь РТ. Названия и координаты: /rustmap info. Без работающей кровати возрождение случайное.",
+  "rustcraft.world.map.v2.started": "Началось строительство нового острова. Старая карта сохранена в своей области. Готовность: /rustmap status.",
+  "rustcraft.world.map.layout": "Версия острова: %s, размер суши до %s × %s блоков.",
+  "rustcraft.world.map.monument": "%s: %s %s %s",
+  "rustcraft.world.map.legacy": "Старая область, %s",
+  "rustcraft.world.map.repair_started": "Начат ремонт причала, входа и лестниц нефтяных платформ. Другие части карты не перестраиваются.",
+  "rustcraft.world.map.repair_unavailable": "Нефтяная платформа не найдена либо карта сейчас строится/ремонтируется. Проверь /rustmap status.",
+  "rustcraft.world.map.repaired": "Нефтяная платформа отремонтирована: причал на уровне моря, непрерывные лестницы, свободный выход на палубу.",
+  "rustcraft.world.monument.oilrig": "Нефтяная платформа",
+  "rustcraft.world.monument.silo": "Ракетная шахта",
+  "rustcraft.world.monument.gasstation": "Заправочная станция",
+  "rustcraft.world.monument.supermarket": "Супермаркет",
+  "rustcraft.world.monument.radtown": "Радиовышка",
+  "rustcraft.world.monument.harbor": "Морской порт",
+  "rustcraft.world.monument.refinery": "Нефтеперерабатывающий завод"
+}

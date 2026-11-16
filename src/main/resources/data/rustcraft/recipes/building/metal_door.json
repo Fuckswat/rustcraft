@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "MM",
+    "MM"
+  ],
+  "key": {
+    "M": {
+      "item": "rustcraft:metal_fragments"
+    }
+  },
+  "result": {
+    "item": "rustcraft:metal_door"
+  },
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

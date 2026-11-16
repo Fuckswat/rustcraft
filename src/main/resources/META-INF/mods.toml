@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+
+[[mods]]
+modId="rustcraft"
+version="${file.jarVersion}"
+displayName="RustCraft"
+authors="Adam"
+description='''
+Rust в Minecraft: огнестрел, рейды, замки, аптечки, нефтянка, ракетная шахта с учёными, коптер.
+'''
+
+[[dependencies.rustcraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rustcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
